@@ -1,6 +1,6 @@
 function init() {	
   var words = document.getElementById('entryinput');
-  alert(words.value);
+  alert("Xueying Sun: "+words.value);
   
   var out = document.getElementById('textoutput');
   out.innerHTML = words.value;
